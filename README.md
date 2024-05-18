@@ -21,36 +21,36 @@
 ### Installation
 
 1. Clone the repository:
-    \`\`\`bash
+    ```bash
     git clone https://github.com/Luca040619/music-downloader.git
-    \`\`\`
+    ```
 2. Navigate to the project directory:
-    \`\`\`bash
+    ```bash
     cd music-downloader
-    \`\`\`
+    ```
 3. Install the dependencies:
-    \`\`\`bash
+    ```bash
     npm install
-    \`\`\`
+    ```
 
 ### Running the Application
 
 To start the application, run:
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 ## Download Script
 
-The main script responsible for downloading songs is located at \`python/download_songs.py\`. This script handles the interaction with yt-dlp to fetch and download the requested media.
+The main script responsible for downloading songs is located at `python/download_songs.py`. This script handles the interaction with yt-dlp to fetch and download the requested media.
 
 ## Configuration
 
-Even though it is not the primary intention of the app, you can further customize your download experience by modifying the \`config.json\` file. This file allows you to adjust various settings according to your preferences.
+Even though it is not the primary intention of the app, you can further customize your download experience by modifying the `config.json` file. This file allows you to adjust various settings according to your preferences.
 
 ## Note on ffmpeg
 
-Due to file size limitations, \`ffmpeg.exe\` is not included in the source code. However, it is included in the distribution package of the application. For development purposes, you need to download \`ffmpeg.exe\` and place it in the \`ffmpeg\` folder.
+Due to file size limitations, `ffmpeg.exe` is not included in the source code. However, it is included in the distribution package of the application. For development purposes, you need to download `ffmpeg.exe` and place it in the `ffmpeg` folder.
 
 ## License
 
