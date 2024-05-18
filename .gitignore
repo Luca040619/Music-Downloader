@@ -1,0 +1,16 @@
+# Ignora la cartella node_modules
+node_modules/
+
+ffmpeg/ffmpeg.exe
+ffmpeg/ffbrobe.exe
+
+.DS_Store
+Thumbs.db
+build/
+dist/
+npm-debug.log
+yarn-error.log
+.idea/
+.vscode/
+coverage/
+*.log

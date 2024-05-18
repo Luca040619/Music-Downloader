@@ -1,0 +1,9 @@
+{
+  "savePath": "C:\\Users\\Luca\\Downloads\\music_downloader",
+  "quality": "bestaudio",
+  "downloadType": "audio",
+  "audioFormat": "mp3",
+  "videoFormat": "mp4",
+  "embedSubtitles": false,
+  "downloadPlaylist": true
+}
