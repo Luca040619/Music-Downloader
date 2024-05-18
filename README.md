@@ -48,9 +48,11 @@ The main script responsible for downloading songs is located at `python/download
 
 Even though it is not the primary intention of the app, you can further customize your download experience by modifying the `config.json` file. This file allows you to adjust various settings according to your preferences.
 
-## Note on ffmpeg
+## Note on ffmpeg and python
 
 Due to file size limitations, `ffmpeg.exe` is not included in the source code. However, it is included in the distribution package of the application. For development purposes, you need to download `ffmpeg.exe` and place it in the `ffmpeg` folder.
+
+An embedded version of python is included in the executable. For development purposes you need to remove the python path and eventually the ffmpeg path in `main.js` to use your local environment.
 
 ## License
 

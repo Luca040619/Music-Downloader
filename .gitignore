@@ -4,6 +4,12 @@ node_modules/
 ffmpeg/ffmpeg.exe
 ffmpeg/ffbrobe.exe
 
+# Ignore all files in the python directory
+python/*
+
+# Except for download_songs.py
+!python/download_songs.py
+
 .DS_Store
 Thumbs.db
 build/
