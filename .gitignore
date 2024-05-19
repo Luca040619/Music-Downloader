@@ -1,9 +1,6 @@
 # Ignora la cartella node_modules
 node_modules/
 
-ffmpeg/ffmpeg.exe
-ffmpeg/ffbrobe.exe
-
 # Ignore all files in the python directory
 python/*
 
